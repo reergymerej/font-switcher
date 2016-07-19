@@ -2,9 +2,8 @@
   "name": "font-switcher",
   "main": "./lib/font-switcher",
   "version": "0.0.0",
-  "description": "A short description of your package",
-  "keywords": [
-  ],
+  "description": "Toggle font in active editor to/from runic font.",
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": "font-switcher:toggle"
   },
@@ -13,6 +12,9 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
+    "react": "^15.2.1",
+    "react-dom": "^15.2.1"
   }
 }
