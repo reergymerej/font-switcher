@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle font-switcher",
+        "command": "font-switcher:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "font-switcher",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "font-switcher:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
